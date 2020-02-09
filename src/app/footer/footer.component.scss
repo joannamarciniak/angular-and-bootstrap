@@ -1,0 +1,55 @@
+body {
+    min-height: 100vh; 
+}
+  
+.flex-grow {
+    flex: 1;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    background-color: #e2e2e2;
+    max-height: 100%;
+    text-align: center;
+}  
+
+.display-4, .lead {
+    font-weight: 400!important;
+    color: #000!important;
+}
+
+.jumbotron-border {
+    border-right: dashed silver 2px;
+}
+
+@media(max-width: 768px){
+    .jumbotron-border {
+        border-right: 0;
+    } 
+}
+
+.rounded-img {
+    img {
+      border-radius: 50%;
+      max-width: 70%;
+      display: block;
+      margin: 0 auto;
+    }
+}
+
+@media(max-width: 768px){
+    .rounded-img {
+        img {
+            max-width: 50%;
+        }
+    }
+}
+
+@media(max-width: 450px){
+    .rounded-img {
+        img {
+            max-width: 60%;
+        }
+    }
+}
+

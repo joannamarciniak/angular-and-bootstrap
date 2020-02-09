@@ -11,10 +11,12 @@ import { ContactComponent } from './contact/contact.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule, MatIconModule, MatSidenavModule, MatListModule, MatButtonModule } from  '@angular/material';
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { HeaderComponent } from './header/header.component';
 import { SidenavListComponent } from './sidenav-list/sidenav-list.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -26,7 +28,8 @@ import { SidenavListComponent } from './sidenav-list/sidenav-list.component';
     OfferComponent,
     ContactComponent,
     HeaderComponent,
-    SidenavListComponent
+    SidenavListComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -37,7 +40,8 @@ import { SidenavListComponent } from './sidenav-list/sidenav-list.component';
     MatSidenavModule,
     MatListModule,
     MatButtonModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    AngularFontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

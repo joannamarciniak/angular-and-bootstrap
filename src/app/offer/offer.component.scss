@@ -1,0 +1,11 @@
+.text-muted div {
+    min-height: 40px;
+}
+
+.card-footer {
+    padding: .75rem 0;
+}
+
+.text-muted div:nth-child(2n+2) {
+    background-color: #fff;
+}
